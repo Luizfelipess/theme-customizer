@@ -1,0 +1,17 @@
+{
+    "name": "hibrido/theme-customizer",
+    "description": "Magento 2 module for customizing button color via CLI per store view",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hibrido\\ThemeCustomizer\\": ""
+        }
+    }
+}
