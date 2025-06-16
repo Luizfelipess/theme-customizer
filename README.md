@@ -119,13 +119,15 @@ Assim, qualquer pessoa do time consegue fazer a alteração direto, sem precisar
 
 Além disso, o CSS fica isolado e aplicado só na store view selecionada, garantindo flexibilidade e controle.
 ---
-### Aspectos técnicos importantes
+
+## Aspectos técnicos importantes
 
 - Validação para garantir que só cores válidas e stores existentes sejam aceitas.
 - Uso de CSS inline dinâmico para evitar tocar em arquivos estáticos e permitir atualização sem deploy.
 - Código modular, com separação clara de responsabilidades, seguindo padrões como SOLID e PSR.
 - Suporte para resetar para a cor padrão via CLI.
 ---
+
 ### Desafios e aprendizados
 
 - Garantir que o valor salvo e recuperado sempre respeitasse o escopo correto da store view.
@@ -158,15 +160,6 @@ Além disso, o CSS fica isolado e aplicado só na store view selecionada, garant
     * `CssGeneratorInterface`
     * **SoC:** Commands, Observers, Validators, Services.
     * PSR-4, PSR-12, SOLID.
-
----
-
-## Desafios encontrados
-
-* **Tratamento de escopo:** Garantir que o valor fosse salvo e recuperado no contexto correto.
-* Aceitar valores de cor com ou sem `#` tanto no admin quanto no CLI.
-* Definir seletores genéricos para funcionar com diferentes temas.
-
 ---
 
 ## Melhorias futuras
