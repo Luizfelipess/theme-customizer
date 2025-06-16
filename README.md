@@ -113,10 +113,13 @@ Criei duas formas de aplicar a cor:
 
 Ambas as opções geram um CSS inline dinâmico e isolado por store view, que é injetado sem modificar arquivos do tema.
 
+
 ### Por que essa abordagem?
 
 Assim, qualquer pessoa do time consegue fazer a alteração direto, sem precisar mexer em código, deploy ou temas. É rápido, seguro e mantém o sistema organizado.
+
 Além disso, o CSS fica isolado e aplicado só na store view selecionada, garantindo flexibilidade e controle.
+
 ---
 
 ## Aspectos técnicos importantes
